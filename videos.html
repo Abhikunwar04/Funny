@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        /* Navigation Bar */
+        .navbar {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        
+        /* Hero Section (Fixed Header Visibility) */
+        .hero {
+            position: relative;
+            text-align: center;
+            padding: 40px 20px;
+            background: #6200ea; /* Purple Background */
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        /* If Text is Blending, Add Background */
+        .hero h1 {
+            background: rgba(0, 0, 0, 0.3); /* Semi-transparent Black */
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 8px;
+        }
+
+        /* Centering the Video */
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh; /* Adjust height if needed */
+            text-align: center;
+        }
+        
+        /* Video Card Styling */
+        .video-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        h3 {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="videos.html">Videos</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    
+    <!-- Hero Section (Fixed Visibility) -->
+    <header class="hero">
+        <h1>Special Video For Only You</h1>
+    </header>
+    
+    <!-- Video Section -->
+    <section class="video-container">
+        <div class="video-card">
+            <iframe src="https://drive.google.com/file/d/1CJbhift3tFdGIkLUKq-6M3NVEEqf7nHe/preview" 
+                    width="640" height="360" 
+                    allow="autoplay; encrypted-media" 
+                    allowfullscreen>
+            </iframe>
+            <h3>Ye Mera Unreleased Song hai....Kesa Laga???</h3>
+        </div>
+    </section>
+</body>
+</html>
